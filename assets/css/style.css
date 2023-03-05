@@ -1,30 +1,26 @@
+/* Resets */
 * {
+    /* Adds style reset to all of HTML file */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Global Changes to specific tags */
+
 body {
-    background-color: #d9dcd6;
+    background-color: #d9dcd6; /* Adds a very light green color to background */
 }
 
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.seo {
-    color: #d9dcd6;
+    background-color: #2a607c; /* Adds medium-dark shade of cyan blue color to the background */
+    color: #ffffff; /* Adds white color to text */
 }
 
 nav {
+    /* Adds global styles for navigation tag of header */
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,18 +29,81 @@ nav {
 }
 
 a{
+    /* Adds global styles for a tag */
     list-style-type: none;
     display: inline-block;
     margin-left: 25px;
-    color: #ffffff;
+    color: #ffffff; /* Adds white color to text */
     text-decoration: none;
 }
 
 p {
+    /* Adds global styles for p tag */
     font-size: 16px;
 }
 
+article {
+    /* Adds global styles for article tag */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb; /* Adds french blue color to background */
+    color: #ffffff; /* Adds white color to text */
+}
+
+article img {
+    /* Adds global styles for all article img tags */
+    max-height: 200px;
+}
+
+aside {
+    /* Adds global styles for aside tag*/
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd; /* Adds cyan blue color to background */
+}
+
+h1 {
+    /* Adds global styles for h1 tag*/
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    /* Adds global styles for h2 tag*/
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    /* Adds global styles for h3 tag*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+footer {
+    /* Adds global styles for footer tag*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Custum changes for specific tags */
+
+.seo {
+    /* Adds multicolor text to h1 */
+    color: #d9dcd6; /* Adds a very light green color to seo portion of h1 text "Horiseon" */
+}
+
 .hero {
+    /* Adds background image to website */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -54,74 +113,39 @@ p {
 }
 
 .float-left {
+    /* Adds custum styles to float-left class */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Adds custum styles to float-right class */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Adds custum styles to content class */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 .benefit {
+    /* Adds custum styles to benefit class */
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #ffffff; /* Adds white color to text */
 }
 
-.benefit img{
+.benefit img {
+    /* Adds custum styles to benefit img class */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-article img {
-    max-height: 200px;
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
 footer h2 {
+    /* Adds custum font size and margin to footer's h2 */
     font-size: 20px;
     margin-bottom: 0px;
 }
